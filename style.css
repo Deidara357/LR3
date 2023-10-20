@@ -43,3 +43,50 @@ body {
     height: 250px;
     line-height: 200px;
 }
+
+
+.container2 {
+    background: #00ff00;
+    width: 1000px;
+    height: 800px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header2, .main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header2 {
+    background: #0048ff;
+    width: 100%;
+    height: 150px;
+}
+
+.left-menu2 {
+    background: #a2eba2;
+    width: 75%;
+    height: 400px;
+    text-align: center;
+    line-height: 500px;
+}
+
+.content2 {
+    background: #006407;
+    width: 25%;
+    height: 400px;
+    text-align: center;
+    line-height: 500px;
+}
+
+.footer2 {
+    background: #fc7bef;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    line-height: 200px;
+}
